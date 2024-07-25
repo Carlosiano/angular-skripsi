@@ -1,0 +1,32 @@
+<header
+  class="header" [class.active]="scrollY > 100" data-header
+  [scrollY]="scrollY"
+  [gambar]="gambar[0]"
+  [active]="active"
+  [toggleActiveClass]="toggleActiveClass"
+  [navLinks]="navLinks"
+></header>
+<main
+  [gambar]="gambar[0]"
+  [infoPMB]="infoPMB"
+  [kampus]="gambar[1].kampus"
+  [categories]="gambar[3].categories"
+  [fasilitas]="gambar[2].fasilitas"
+  [alasanKuliah]="alasanKuliah"
+></main>
+<footer [gambar]="gambar[0]" class="footer"></footer>
+
+<!--
+        - #BACK TO TOP
+    -->
+
+<a
+  href="#top"
+  class="back-top-btn"
+  [class.active]="scrollY > 100"
+  aria-label="back top top"
+  data-back-top-btn
+>
+
+<div class="ion-icon" [style]="{'mask-image': 'url(' + gambar[0].chevronUp + ')' }" aria-hidden="true"></div>
+</a>
