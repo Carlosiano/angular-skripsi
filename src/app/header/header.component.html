@@ -1,6 +1,6 @@
   <div class="container">
     <a href="#" class="logo">
-      <img [src]="gambar.logoNav" alt="UTC logo" />
+      <img [src]="gambar.logoNav" alt="UT logo" />
     </a>
 
     <nav class="navbar" data-navbar [class.active]="active" >
@@ -10,12 +10,13 @@
             [src]="gambar.logoNav"
             width="162"
             height="50"
-            alt="UTC logo"
+            alt="UT logo"
           />
         </a>
 
         <button class="nav-close-btn" aria-label="close menu" data-nav-toggler (click)="toggleActiveClass()">
-          <div class="ion-icon" [style]="{'mask-image': 'url(' + gambar.closeOutline + ')' }" aria-hidden="true"></div>
+
+            <img [src]="gambar.closeOutline" alt="" class="ion-icon" aria-hidden="true" />
         </button>
       </div>
       <ul class="navbar-list">
@@ -27,16 +28,19 @@
 
     <div class="header-actions">
       <a href="#" class="btn has-before">
-        <div class="ion-icon" [style]="{'mask-image': 'url(' + gambar.personAddOutline + ')' }" aria-hidden="true"></div>
+
+            <img [src]="gambar.personAddOutline" alt="" class="ion-icon" aria-hidden="true" />
         <span class="span">Daftar</span>
       </a>
       <a href="#" class="btn-second has-before">
-        <div class="ion-icon" [style]="{'mask-image': 'url(' + gambar.arrowForwardOutline + ')' }" aria-hidden="true"></div>
+
+            <img [src]="gambar.arrowForwardOutline" alt="" class="ion-icon" aria-hidden="true" />
         <span class="span">Masuk</span>
       </a>
 
       <button class="header-action-btn" aria-label="open menu" data-nav-toggler (click)="toggleActiveClass()">
-        <div class="ion-icon" [style]="{'mask-image': 'url(' + gambar.menuOutline + ')' }" aria-hidden="true"></div>
+
+            <img [src]="gambar.menuOutline" alt="" class="ion-icon" aria-hidden="true" />
       </button>
     </div>
 

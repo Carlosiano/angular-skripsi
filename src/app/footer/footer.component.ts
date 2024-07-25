@@ -1,9 +1,10 @@
+import { NgFor } from '@angular/common';
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'footer',
   standalone: true,
-  imports: [],
+  imports: [NgFor],
   templateUrl: './footer.component.html',
   styleUrl: './footer.component.css'
 })

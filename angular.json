@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-UTC": {
+    "angular-skripsi": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/angular-utc",
+            "outputPath": "dist/angular-skripsi",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "angular-UTC:build:production"
+              "buildTarget": "angular-skripsi:build:production"
             },
             "development": {
-              "buildTarget": "angular-UTC:build:development"
+              "buildTarget": "angular-skripsi:build:development"
             }
           },
           "defaultConfiguration": "development"

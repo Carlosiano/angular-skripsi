@@ -40,6 +40,9 @@
 
   
   --white-ion-icon: invert(96%) sepia(86%) saturate(2%) hue-rotate(160deg) brightness(110%) contrast(100%);
+  --yellow-ion-icon: invert(84%) sepia(46%) saturate(2138%) hue-rotate(340deg) brightness(98%) contrast(97%);
+
+
 
 
   /**
@@ -607,7 +610,7 @@ body {
 }
 
 .about-item .ion-icon {
-  color: var(--selective-yellow);
+  filter: var(--yellow-ion-icon);
   font-size: 20px;
   --ionicon-stroke-width: 50px;
 }
@@ -943,6 +946,10 @@ body {
   font-size: var(--fs-5);
 }
 
+.footer .ion-icon {
+  filter: var(--white-ion-icon);
+}
+
 .footer-top {
   display: grid;
   gap: 30px;
@@ -1031,6 +1038,9 @@ body {
   transition: var(--transition-1);
 }
 
+.back-top-btn .ion-icon{
+  filter: var(--white-ion-icon);
+}
 
 .back-top-btn.active {
   transform: translateY(10px);

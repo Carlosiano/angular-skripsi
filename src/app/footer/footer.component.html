@@ -6,7 +6,7 @@
             [src]="gambar.logoFooter"
             width="162"
             height="50"
-            alt="UTC logo"
+            alt="UT logo"
           />
         </a>
 
@@ -29,7 +29,7 @@
         <div class="wrapper">
           <span class="span">Email:</span>
 
-          <a href="mailto:info@utc.com" class="footer-link">{{"info@utc.com"}}</a>
+          <a href="mailto:info@ut.com" class="footer-link">{{"info@ut.com"}}</a>
         </div>
       </div>
 
@@ -39,7 +39,7 @@
         </li>
 
         <li>
-          <a href="#" class="footer-link">Tentang UTC</a>
+          <a href="#" class="footer-link">Tentang UT</a>
         </li>
 
         <li>
@@ -91,38 +91,14 @@
 
           <button type="submit" class="btn has-before">
             <span class="span">Kirim</span>
-              <div class="ion-icon" [style]="{'mask-image': 'url(' + gambar.arrowForwardOutline + ')' }" aria-hidden="true"></div>
+            <img [src]="gambar.arrowForwardOutline" alt="" class="ion-icon" aria-hidden="true" />
           </button>
         </form>
 
         <ul class="social-list">
-          <li>
+          <li *ngFor="let item of gambar.sosMedLogo; let index = index">
             <a href="#" class="social-link">
-              <div class="ion-icon" [style]="{'mask-image': 'url(' + gambar.logoFacebook + ')' }"></div>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <div class="ion-icon" [style]="{'mask-image': 'url(' + gambar.logoLinkedin + ')' }"></div>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <div class="ion-icon" [style]="{'mask-image': 'url(' + gambar.logoInstagram + ')' }"></div>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <div class="ion-icon" [style]="{'mask-image': 'url(' + gambar.logoTwitter + ')' }"></div>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <div class="ion-icon" [style]="{'mask-image': 'url(' + gambar.logoYoutube + ')' }"></div>
+            <img [src]="item" alt="" class="ion-icon"/>
             </a>
           </li>
         </ul>

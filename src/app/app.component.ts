@@ -15,7 +15,7 @@ export class AppComponent {
   toggleActiveClass() {
     this.active = !this.active;
   }
-  title = 'angular-UTC';
+  title = 'angular-skripsi';
   gambar;
   scrollY: number = 0;
   infoPMB = [
@@ -33,7 +33,7 @@ export class AppComponent {
       href: 'jenjang',
     },
     {
-      title: 'Mengapa UTC',
+      title: 'Mengapa UT',
       href: 'why',
     },
     {
@@ -92,11 +92,13 @@ export class AppComponent {
         chevronUp: 'assets/images/ion-icons/chevron-up.svg',
         arrowForwardOutline:
           'assets/images/ion-icons/arrow-forward-outline.svg',
-        logoFacebook: 'assets/images/ion-icons/logo-facebook.svg',
-        logoLinkedin: 'assets/images/ion-icons/logo-linkedin.svg',
-        logoInstagram: 'assets/images/ion-icons/logo-instagram.svg',
-        logoTwitter: 'assets/images/ion-icons/logo-twitter.svg',
-        logoYoutube: 'assets/images/ion-icons/logo-youtube.svg',
+        sosMedLogo: [
+          'assets/images/ion-icons/logo-facebook.svg',
+          'assets/images/ion-icons/logo-linkedin.svg',
+          'assets/images/ion-icons/logo-instagram.svg',
+          'assets/images/ion-icons/logo-twitter.svg',
+          'assets/images/ion-icons/logo-youtube.svg',
+        ],
       },
       {
         kampus: [
@@ -126,17 +128,17 @@ export class AppComponent {
         fasilitas: [
           {
             title: 'Resource Center',
-            desc: 'Universitas UTC Memiliki Perpustakaan dengan konsep perpustakaan masa depan yang memiliki fasilitas dan buku lengkap.',
+            desc: 'Universitas Teknologi Memiliki Perpustakaan dengan konsep perpustakaan masa depan yang memiliki fasilitas dan buku lengkap.',
             img: 'assets/images/fasilitas-1.jpg',
           },
           {
             title: 'Resource Center',
-            desc: 'Universitas UTC Memiliki Perpustakaan dengan konsep perpustakaan masa depan yang memiliki fasilitas dan buku lengkap.',
+            desc: 'Universitas Teknologi Memiliki Perpustakaan dengan konsep perpustakaan masa depan yang memiliki fasilitas dan buku lengkap.',
             img: 'assets/images/fasilitas-2.jpg',
           },
           {
             title: 'Resource Center',
-            desc: 'Universitas UTC Memiliki Perpustakaan dengan konsep perpustakaan masa depan yang memiliki fasilitas dan buku lengkap.',
+            desc: 'Universitas Teknologi Memiliki Perpustakaan dengan konsep perpustakaan masa depan yang memiliki fasilitas dan buku lengkap.',
             img: 'assets/images/fasilitas-3.jpg',
           },
         ],

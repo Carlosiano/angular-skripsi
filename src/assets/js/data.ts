@@ -3,15 +3,15 @@ import { categoriesImages, fasilitasImages, kampusImages } from "../images";
 const fasilitasInfos = [
   {
     title: "Resource Center",
-    desc: "Universitas UTC Memiliki Perpustakaan dengan konsep perpustakaan masa depan yang memiliki fasilitas dan buku lengkap.",
+    desc: "Universitas UT Memiliki Perpustakaan dengan konsep perpustakaan masa depan yang memiliki fasilitas dan buku lengkap.",
   },
   {
     title: "Resource Center",
-    desc: "Universitas UTC Memiliki Perpustakaan dengan konsep perpustakaan masa depan yang memiliki fasilitas dan buku lengkap.",
+    desc: "Universitas UT Memiliki Perpustakaan dengan konsep perpustakaan masa depan yang memiliki fasilitas dan buku lengkap.",
   },
   {
     title: "Resource Center",
-    desc: "Universitas UTC Memiliki Perpustakaan dengan konsep perpustakaan masa depan yang memiliki fasilitas dan buku lengkap.",
+    desc: "Universitas UT Memiliki Perpustakaan dengan konsep perpustakaan masa depan yang memiliki fasilitas dan buku lengkap.",
   },
 ];
 export const fasilitas = fasilitasImages.map((img, index) => ({
@@ -118,7 +118,7 @@ export const navLinks = [
     href: "jenjang",
   },
   {
-    title: "Mengapa UTC",
+    title: "Mengapa UT",
     href: "why",
   },
   {
